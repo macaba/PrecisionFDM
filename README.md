@@ -31,7 +31,13 @@ The best way to calibrate is to break it down into direct measurements and minim
 ## Per Printer
 ### XYZ steps/mm 
 #### Procedure
-Using a digital vernier caliper, mount it to the printer in a way that means movements on the axis of interest pushes the caliper head. Start from a zero position, zero the caliper, and send the g-code command to move a good amount (100mm) then take a reading from the caliper. Repeat this 3 times and calculate an average. Use this value to calculate new steps-per-mm.
+Using a digital vernier caliper, mount it to the printer in a way that means movements on the axis of interest pushes the caliper head.
+
+Start from a zero position, zero the caliper, and send the g-code command to move a good amount (100mm) then take a reading from the caliper. 
+
+Repeat this 3 times and calculate an average. 
+
+Use this value to calculate new steps-per-mm.
 
 #### Example
 ```
