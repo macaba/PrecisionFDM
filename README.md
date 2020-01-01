@@ -2,7 +2,7 @@
 Forget using any kind of whole system calibration that depends on taking measurements from a printed part and using a spreadsheet & statistics to get steps/mm and/or CTE values because there are simply too many unknown variables. 
 The best way to calibrate is to break it down into direct measurements and minimise the number of unknowns.
 
-### Summary of variables calibrated in this guide
+### Variables calibrated in this guide
 #### Per printer
 * [X steps-per-mm](#xyz-stepsmm)
 * [Y steps-per-mm](#xyz-stepsmm)
