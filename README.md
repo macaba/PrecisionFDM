@@ -1,34 +1,43 @@
 # Precision FDM
-Forget using any kind of whole system calibration that depends on taking measurements from a printed part and using a spreadsheet & statistics to get steps/mm and/or CTE values because there are simply too many unknown variables. 
+
+This guide is intended to get a consumer FDM printer to a state where it'll print mechanically accurate functional parts. There is still some benefit to calibration for non-functional parts as it will improve aesthetics. This guide assumes that you're willing to make an investment in metrology equipment (see [Required items](#required-items)).
+
+Attempting to use any kind of whole system calibration that depends on taking measurements from a printed part and using a spreadsheet & statistics to get steps/mm and/or CTE values does not work well because there are simply too many unknown variables. 
 The best way to calibrate is to break it down into direct measurements and minimise the number of unknowns.
 
-### Summary of variables calibrated in this guide
-#### Per printer
-* X steps-per-mm
-* Y steps-per-mm
-* Z steps-per-mm
-* E steps-per-mm
+### Variables calibrated in this guide
+#### [Per printer](#per-printer-1)
+* [X steps-per-mm](#xyz-stepsmm)
+* [Y steps-per-mm](#xyz-stepsmm)
+* [Z steps-per-mm](#xyz-stepsmm)
+* [E steps-per-mm](#extruder-stepsmm)
 
-#### Per filament
-* Nominal filament diameter
-* Extrusion flow
-* Coefficient of thermal expansion (CTE)
+#### [Per filament](#per-filament-1)
+* [Nominal filament diameter](#nominal-diameter)
+* [Extrusion flow](#extrusion-flow)
+* [Coefficient of thermal expansion (CTE)](#coefficient-of-thermal-expansion)
 
-## Required items
+### Required items
 * Digital vernier caliper
-  * Good: 150mm digital vernier caliper (Any cheap brand)
+  * Good: 150mm digital vernier caliper (Any cheap brand or Mitutoyo 500-184-30)
   * Best: 300mm digital vernier caliper (Mitutoyo 500-173)
 * Digital micrometer
   * Good: 0-25mm [0-1"] (Any cheap brand)
-  * Best: 0-25mm [0-1"] (Mitutoyo)
-* Fine permanent marker (Staedtler S)
+  * Best: 0-25mm [0-1"] (Mitutoyo 293-832)
+* Fine permanent marker
 * Good quality PLA filament
 
 
-## New Printer
+## Per Printer
 ### XYZ steps/mm 
 #### Procedure
-Using a digital vernier caliper, mount it to the printer in a way that means movements on the axis of interest pushes the caliper head. Start from a zero position, zero the caliper, and send the g-code command to move a good amount (100mm) then take a reading from the caliper. Repeat this 3 times and calculate an average. Use this value to calculate new steps-per-mm.
+Using a digital vernier caliper, mount it to the printer in a way that means movements on the axis of interest pushes the caliper head.
+
+Start from a zero position, zero the caliper, and send the g-code command to move a good amount (100mm) then take a reading from the caliper. 
+
+Repeat this 3 times and calculate an average. 
+
+Use this value to calculate new steps-per-mm.
 
 #### Example
 ```
@@ -45,7 +54,7 @@ Printer current steps-per-mm * Scale = New steps-per-mm
 
 #### Saving value to printer
 
-(Substitute 'X' for whatever axis you desire such as Y/Z/E)
+(Substitute 'X' for 'Y'/'Z' when appropriate)
 ```
 M92 X81.136
 M500
@@ -66,7 +75,9 @@ Send the g-code command to move a good amount (150mm for small caliper, 300mm fo
 
 Make another mark on the filament, extrude 25mm and cut it off. 
 
-Measure distance between markings with vernier and use measurement to calculate new steps-per-mm.
+Measure distance between markings with vernier.
+
+Use this value to calculate new steps-per-mm.
 
 #### Example
 ````
@@ -81,11 +92,11 @@ M501
 ```
 `M501` will show you that the value has been committed.
 
-## New Filament
+## Per Filament
 
 ### Nominal diameter
 
-Check the nominal diameter using the digital micrometer. You're looking for a tight spread of values around 1.75mm (or 3.00mm). If values are wildly varying, return filament for refund.
+Check the nominal diameter using the digital micrometer. You're looking for a small spread of values around 1.75mm (or 3.00mm). If values are wildly varying, return filament for refund.
 
 ### Extrusion Flow
 
@@ -93,11 +104,19 @@ Check the nominal diameter using the digital micrometer. You're looking for a ti
 Printer has 0.4mm nozzle.
 
 #### Procedure
-Use the single wall box test at the recommended temps for the filament. Ensure the slicer has 1 wall with a width of 0.5mm, and 2 base layers. Take a series of wall thickness measurements with the digital micrometer and compute an average. Use this value to calculate the filament specific flow rate.
+Use the single wall box test at the recommended temps for the filament. 
 
-![Single wall box sliced in Cura](/image/Single%20wall%20box%20example.png?raw=true)
+Ensure the slicer has 1 wall with a width of 0.5mm, and 2 base layers. 
 
-![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20print.jpg?raw=true)
+Print part, then wait for it to cool to room temperature. 
+
+Take a series of wall thickness measurements with the digital micrometer and compute an average. 
+
+Use this value to calculate the filament specific flow rate.
+
+![Single wall box sliced in Cura](/image/Single%20wall%20box%20sliced.png?raw=true)
+
+![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20printed.jpg?raw=true)
 
 #### Example
 ````
@@ -108,3 +127,6 @@ Average wall thickness = 0.537mm
 (0.500/0.537)*100 = 93.1%
 ````
 
+### Coefficient of thermal expansion
+
+TBD
