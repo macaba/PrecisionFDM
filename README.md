@@ -102,6 +102,7 @@ Check the nominal diameter using the digital micrometer. You're looking for a sm
 
 #### Assumptions
 Printer has 0.4mm nozzle.
+CTE is small enough to not introduce a large error (true for PLA).
 
 #### Procedure
 Use the single wall box test at the recommended temps for the filament. 
@@ -130,5 +131,7 @@ Average wall thickness = 0.537mm
 ````
 
 ### Coefficient of thermal expansion
+
+To get to this point assumes that _every other_ calibration has been performed otherwise it isn't possible to get accurate results. 
 
 TBD
