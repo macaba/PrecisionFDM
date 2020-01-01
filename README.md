@@ -117,12 +117,6 @@ Take a series of wall thickness measurements with the digital micrometer and com
 
 Use this value to calculate the filament specific flow rate.
 
-![Single wall box sliced in Cura](/image/Single%20wall%20box%20sliced.png?raw=true)
-
-![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20printed.jpg?raw=true)
-
-![Single wall box measurement](/image/Single%20wall%20box%20measurement.jpg?raw=true)
-
 #### Example
 ````
 Expected wall thickness = 0.500mm
@@ -131,6 +125,14 @@ Average wall thickness = 0.537mm
 (Expected/Averaged actual)*100 = Flow rate %
 (0.500/0.537)*100 = 93.1%
 ````
+
+#### Images
+
+![Single wall box sliced in Cura](/image/Single%20wall%20box%20sliced.png?raw=true)
+
+![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20printed.jpg?raw=true)
+
+![Single wall box measurement](/image/Single%20wall%20box%20measurement.jpg?raw=true)
 
 ### Coefficient of thermal expansion
 
