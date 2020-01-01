@@ -108,3 +108,6 @@ Average wall thickness = 0.537mm
 (0.500/0.537)*100 = 93.1%
 ````
 
+### Coefficient of thermal expansion
+
+TBD
