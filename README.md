@@ -132,6 +132,6 @@ Average wall thickness = 0.537mm
 
 ### Coefficient of thermal expansion
 
-To get to this point assumes that _every other_ calibration has been performed otherwise it isn't possible to get accurate results. 
+To do a CTE calibration assumes that _all other_ calibration has been performed otherwise it isn't possible to get accurate results. 
 
 TBD
