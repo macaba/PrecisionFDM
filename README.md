@@ -14,7 +14,7 @@ The best way to calibrate is to break it down into direct measurements and minim
 * [Extrusion flow](#extrusion-flow)
 * [Coefficient of thermal expansion (CTE)](#coefficient-of-thermal-expansion)
 
-## Required items
+### Required items
 * Digital vernier caliper
   * Good: 150mm digital vernier caliper (Any cheap brand)
   * Best: 300mm digital vernier caliper (Mitutoyo 500-173)
