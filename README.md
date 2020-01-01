@@ -103,8 +103,8 @@ Check the nominal diameter using the digital micrometer. You're looking for a sm
 ### Extrusion Flow
 
 #### Assumptions
-Printer has 0.4mm nozzle.
-CTE is small enough to not introduce a large error (true for PLA).
+* Printer has 0.4mm nozzle.
+* CTE is small enough to not introduce a large error (true for PLA).
 
 #### Procedure
 Use the single wall box test at the recommended temps for the filament. 
