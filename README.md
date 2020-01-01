@@ -148,3 +148,5 @@ TO DO: CTE calibration procedure
 ### Linear advance
 
 After doing all the other calibrations, you may find gaps in your print. This is where the pressure inside the nozzle is not high enough at the beginning of a move. This is covered in detail [here](http://marlinfw.org/docs/features/lin_advance.html).
+
+If your printer does not support linear advance then you're out of luck, increasing the extrusion flow is as much as you can do.
