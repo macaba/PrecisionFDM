@@ -24,7 +24,7 @@ The best way to calibrate is to break it down into direct measurements and minim
 * Digital micrometer
   * Good: 0-25mm [0-1"] (Any cheap brand)
   * Best: 0-25mm [0-1"] (Mitutoyo 293-832)
-* Fine permanent marker (Staedtler S)
+* Fine permanent marker
 * Good quality PLA filament
 
 
