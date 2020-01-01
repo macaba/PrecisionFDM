@@ -138,4 +138,4 @@ To do a CTE calibration assumes that _all other_ calibrations has been performed
 
 Note that various brands of pure PLA (not modified PLA like PLA+ etc.) has a very small range of CTE (around 68µm/m-°C) that results in a scale factor of approximately 100.27%. We can utilise this useful property of PLA to gain confidence in the overall calibration and the application of the CTE calibration procedure if we use PLA in this calibration and subsequently find the scale factor to be 100.27%.
 
-TBD
+TO DO: CTE calibration procedure
