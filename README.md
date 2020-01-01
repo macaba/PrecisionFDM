@@ -24,11 +24,11 @@ Expected reading = 100.00mm
 Averaged actual reading = 98.60mm
 Printer steps-per-mm on axis = 80
 
-Averaged actual/Expected = Scale
-98.60/100.00 = 0.986
+Expected/Averaged actual = Scale
+100.00/98.60 = 1.01419878296146
 
-Printer steps-per-mm/Scale = New steps-per-mm
-80/0.986 = 81.136
+Printer current steps-per-mm * Scale = New steps-per-mm
+80 * 1.01419878296146 = 81.136
 ```
 
 #### Saving value to printer
@@ -85,6 +85,10 @@ Use the single wall box test at the recommended temps for the filament. Ensure t
 
 #### Example
 ````
-TBD
+Expected wall thickness = 0.500mm
+Average wall thickness = 0.537mm
+
+(Expected/Averaged actual)*100 = Flow rate %
+(0.500/0.537)*100 = 93.1%
 ````
 
