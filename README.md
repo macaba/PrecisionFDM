@@ -3,13 +3,13 @@ Forget using any kind of whole system calibration that depends on taking measure
 The best way to calibrate is to break it down into direct measurements and minimise the number of unknowns.
 
 ### Variables calibrated in this guide
-#### [Per printer](per-printer-1)
+#### [Per printer](#per-printer-1)
 * [X steps-per-mm](#xyz-stepsmm)
 * [Y steps-per-mm](#xyz-stepsmm)
 * [Z steps-per-mm](#xyz-stepsmm)
 * [E steps-per-mm](#extruder-stepsmm)
 
-#### [Per filament](per-filament-1)
+#### [Per filament](#per-filament-1)
 * [Nominal filament diameter](#nominal-diameter)
 * [Extrusion flow](#extrusion-flow)
 * Coefficient of thermal expansion (CTE)
