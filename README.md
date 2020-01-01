@@ -10,8 +10,8 @@ The best way to calibrate is to break it down into direct measurements and minim
 * [E steps-per-mm](#extruder-stepsmm)
 
 #### Per filament
-* Nominal filament diameter(#nominal-diameter)
-* Extrusion flow(#extrusion-flow)
+* [Nominal filament diameter](#nominal-diameter)
+* [Extrusion flow](#extrusion-flow)
 * Coefficient of thermal expansion (CTE)
 
 ## Required items
