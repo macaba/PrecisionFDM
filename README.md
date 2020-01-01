@@ -1,5 +1,8 @@
 # Precision FDM
-Forget using any kind of whole system calibration that depends on taking measurements from a printed part and using a spreadsheet & statistics to get steps/mm and/or CTE values because there are simply too many unknown variables. 
+
+This guide is intended to get an FDM printer to a state where it'll print mechanically accurate functional parts. There is still some benefit to calibration for non-functional parts as it will improve aesthetics. This guide assumes that you're willing to make an investment in metrology equipment (see [Required items](#required-items)).
+
+Attempting to use any kind of whole system calibration that depends on taking measurements from a printed part and using a spreadsheet & statistics to get steps/mm and/or CTE values does not work well because there are simply too many unknown variables. 
 The best way to calibrate is to break it down into direct measurements and minimise the number of unknowns.
 
 ### Variables calibrated in this guide
