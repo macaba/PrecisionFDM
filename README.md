@@ -23,7 +23,7 @@ The best way to calibrate is to break it down into direct measurements and minim
   * Best: 300mm digital vernier caliper (Mitutoyo 500-173)
 * Digital micrometer
   * Good: 0-25mm [0-1"] (Any cheap brand)
-  * Best: 0-25mm [0-1"] (Mitutoyo)
+  * Best: 0-25mm [0-1"] (Mitutoyo 293-832)
 * Fine permanent marker (Staedtler S)
 * Good quality PLA filament
 
