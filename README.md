@@ -17,6 +17,9 @@ The best way to calibrate is to break it down into direct measurements and minim
 * [Extrusion flow](#extrusion-flow)
 * [Coefficient of thermal expansion (CTE)](#coefficient-of-thermal-expansion)
 
+### Variables not calibrated in this guide
+* [Linear advance](#linear-advance)
+
 ### Required items
 * Digital vernier caliper
   * Good: 150mm digital vernier caliper (Any cheap brand or Mitutoyo 500-184-30)
@@ -141,3 +144,7 @@ To do a CTE calibration assumes that _all other_ calibrations has been performed
 Note that various brands of pure PLA (not modified PLA like PLA+ etc.) has a very small range of CTE (around 68µm/m-°C) that results in a scale factor of approximately 100.27%. We can utilise this useful property of PLA to gain confidence in the overall calibration and the application of the CTE calibration procedure if we use PLA in this calibration and subsequently find the scale factor to be 100.27%.
 
 TO DO: CTE calibration procedure
+
+### Linear advance
+
+After doing all the other calibrations, you may find gaps in your print. This is where the pressure inside the nozzle is not high enough at the beginning of a move. This is covered in detail [here](http://marlinfw.org/docs/features/lin_advance.html).
