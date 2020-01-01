@@ -7,7 +7,7 @@ The best way to calibrate is to break it down into direct measurements and minim
 * [X steps-per-mm](#xyz-stepsmm)
 * [Y steps-per-mm](#xyz-stepsmm)
 * [Z steps-per-mm](#xyz-stepsmm)
-* E steps-per-mm
+* [E steps-per-mm](#extruder-stepsmm)
 
 #### Per filament
 * Nominal filament diameter
