@@ -3,13 +3,13 @@ Forget using any kind of whole system calibration that depends on taking measure
 The best way to calibrate is to break it down into direct measurements and minimise the number of unknowns.
 
 ### Variables calibrated in this guide
-#### Per printer
+#### [Per printer](per-printer)
 * [X steps-per-mm](#xyz-stepsmm)
 * [Y steps-per-mm](#xyz-stepsmm)
 * [Z steps-per-mm](#xyz-stepsmm)
 * [E steps-per-mm](#extruder-stepsmm)
 
-#### Per filament
+#### [Per filament](per-filament)
 * [Nominal filament diameter](#nominal-diameter)
 * [Extrusion flow](#extrusion-flow)
 * Coefficient of thermal expansion (CTE)
@@ -25,7 +25,7 @@ The best way to calibrate is to break it down into direct measurements and minim
 * Good quality PLA filament
 
 
-## New Printer
+## Per Printer
 ### XYZ steps/mm 
 #### Procedure
 Using a digital vernier caliper, mount it to the printer in a way that means movements on the axis of interest pushes the caliper head. Start from a zero position, zero the caliper, and send the g-code command to move a good amount (100mm) then take a reading from the caliper. Repeat this 3 times and calculate an average. Use this value to calculate new steps-per-mm.
@@ -81,7 +81,7 @@ M501
 ```
 `M501` will show you that the value has been committed.
 
-## New Filament
+## Per Filament
 
 ### Nominal diameter
 
