@@ -12,7 +12,7 @@ The best way to calibrate is to break it down into direct measurements and minim
 #### [Per filament](#per-filament-1)
 * [Nominal filament diameter](#nominal-diameter)
 * [Extrusion flow](#extrusion-flow)
-* Coefficient of thermal expansion (CTE)
+* [Coefficient of thermal expansion (CTE)](#coefficient-of-thermal-expansion)
 
 ## Required items
 * Digital vernier caliper
