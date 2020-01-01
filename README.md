@@ -95,9 +95,9 @@ Printer has 0.4mm nozzle.
 #### Procedure
 Use the single wall box test at the recommended temps for the filament. Ensure the slicer has 1 wall with a width of 0.5mm, and 2 base layers. Take a series of wall thickness measurements with the digital micrometer and compute an average. Use this value to calculate the filament specific flow rate.
 
-![Single wall box sliced in Cura](/image/Single%20wall%20box%20example.png?raw=true)
+![Single wall box sliced in Cura](/image/Single%20wall%20box%20sliced.png?raw=true)
 
-![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20print.jpg?raw=true)
+![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20printed.jpg?raw=true)
 
 #### Example
 ````
