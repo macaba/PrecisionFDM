@@ -96,7 +96,7 @@ M501
 
 ### Nominal diameter
 
-Check the nominal diameter using the digital micrometer. You're looking for a tight spread of values around 1.75mm (or 3.00mm). If values are wildly varying, return filament for refund.
+Check the nominal diameter using the digital micrometer. You're looking for a small spread of values around 1.75mm (or 3.00mm). If values are wildly varying, return filament for refund.
 
 ### Extrusion Flow
 
