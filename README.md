@@ -19,7 +19,7 @@ The best way to calibrate is to break it down into direct measurements and minim
 
 ### Required items
 * Digital vernier caliper
-  * Good: 150mm digital vernier caliper (Any cheap brand)
+  * Good: 150mm digital vernier caliper (Any cheap brand or Mitutoyo 500-184-30)
   * Best: 300mm digital vernier caliper (Mitutoyo 500-173)
 * Digital micrometer
   * Good: 0-25mm [0-1"] (Any cheap brand)
