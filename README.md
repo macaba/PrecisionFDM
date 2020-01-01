@@ -54,7 +54,7 @@ Printer current steps-per-mm * Scale = New steps-per-mm
 
 #### Saving value to printer
 
-(Substitute 'X' for whatever axis you desire such as Y/Z/E)
+(Substitute 'X' for 'Y'/'Z' then appropriate)
 ```
 M92 X81.136
 M500
