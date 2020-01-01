@@ -118,6 +118,8 @@ Use this value to calculate the filament specific flow rate.
 
 ![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20printed.jpg?raw=true)
 
+![Single wall box measurement](/image/Single%20wall%20box%20measurement.jpg?raw=true)
+
 #### Example
 ````
 Expected wall thickness = 0.500mm
