@@ -79,6 +79,8 @@ Measure distance between markings with vernier.
 
 Use this value to calculate new steps-per-mm.
 
+TO DO: Add alternate procedure using snips instead of permanent marker.
+
 #### Example
 ````
 TBD
