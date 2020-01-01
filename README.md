@@ -134,4 +134,6 @@ Average wall thickness = 0.537mm
 
 To do a CTE calibration assumes that _all other_ calibrations has been performed otherwise it isn't possible to get accurate results. 
 
+Note that various brands of pure PLA has a consistent CTE that results in a scale factor of 100.27%. This isn't true for other materials. We can utilise this useful property of PLA to gain confidence in the overall calibration and the application of the CTE calibration procedure if we use PLA in this calibration and subsequently find the scale factor to be 100.27%.
+
 TBD
