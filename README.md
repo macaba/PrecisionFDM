@@ -4,9 +4,9 @@ The best way to calibrate is to break it down into direct measurements and minim
 
 ### Summary of variables calibrated in this guide
 #### Per printer
-* X steps-per-mm
-* Y steps-per-mm
-* Z steps-per-mm
+* [X steps-per-mm](#xyz-stepsmm)
+* [Y steps-per-mm](#xyz-stepsmm)
+* [Z steps-per-mm](#xyz-stepsmm)
 * E steps-per-mm
 
 #### Per filament
