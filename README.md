@@ -96,7 +96,7 @@ Check the nominal diameter using the digital micrometer. You're looking for a ti
 Printer has 0.4mm nozzle.
 
 #### Procedure
-Use the single wall box test at the recommended temps for the filament. Ensure the slicer has 1 wall with a width of 0.5mm, and 2 base layers. Take a series of wall thickness measurements with the digital micrometer and compute an average. Use this value to calculate the filament specific flow rate.
+Use the single wall box test at the recommended temps for the filament. Ensure the slicer has 1 wall with a width of 0.5mm, and 2 base layers. Print part, then wait for it to cool to room temperature. Take a series of wall thickness measurements with the digital micrometer and compute an average. Use this value to calculate the filament specific flow rate.
 
 ![Single wall box sliced in Cura](/image/Single%20wall%20box%20sliced.png?raw=true)
 
