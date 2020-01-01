@@ -114,6 +114,8 @@ Take a series of wall thickness measurements with the digital micrometer and com
 
 Use this value to calculate the filament specific flow rate.
 
+![Single wall box sliced in Cura](/image/Single%20wall%20box%20sliced.png?raw=true)
+
 ![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20printed.jpg?raw=true)
 
 ![Single wall box measurement](/image/Single%20wall%20box%20measurement.jpg?raw=true)
