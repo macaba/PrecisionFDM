@@ -97,6 +97,8 @@ Use the single wall box test at the recommended temps for the filament. Ensure t
 
 ![Single wall box sliced in Cura](/image/Single%20wall%20box%20example.png?raw=true)
 
+![Single wall box printed in Anycubic Mega-S](/image/Single%20wall%20box%20print.jpg?raw=true)
+
 #### Example
 ````
 Expected wall thickness = 0.500mm
